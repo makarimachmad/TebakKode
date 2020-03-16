@@ -19,4 +19,5 @@ $router->get('/key', function() {
     return \Illuminate\Support\Str::random(32); 
 });
 
+$router->post('/webhook', 'webhook');
 //ecqQHxE25Gpu93EwfKnoQ33sSydZxM5u
