@@ -87,3 +87,4 @@ class Webhook extends Controller
     
         return $this->handleEvents();
     }
+}
