@@ -25,8 +25,10 @@ class EventLogGateway
             ]);
             if(insert){
                 return True;
+                echo("berhasil");
             }else{
                 return False;
+                echo("gagal");
             }
     }
 }
