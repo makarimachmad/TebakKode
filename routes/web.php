@@ -15,9 +15,4 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-//$router->get('/key', function() { 
-//    return \Illuminate\Support\Str::random(32); 
-//});
-
 $router->post('/webhook', 'Webhook');
-//ecqQHxE25Gpu93EwfKnoQ33sSydZxM5u
