@@ -23,5 +23,10 @@ class EventLogGateway
                 'signature' => $signature,
                 'events' => $body
             ]);
+            if(insert){
+                return True;
+            }else{
+                return False;
+            }
     }
 }
