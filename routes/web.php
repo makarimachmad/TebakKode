@@ -19,4 +19,4 @@ $router->get('/', function () use ($router) {
 #    return \Illuminate\Support\Str::random(32); 
 #});
 
-$router->post('/Webhook', 'Webhook');
+$router->post('/webhook', 'Webhook');
